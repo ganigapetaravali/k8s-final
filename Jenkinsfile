@@ -1,6 +1,5 @@
-pipeline
-{
- agent any
+pipeline {
+ agent any 
  environment
 {
    imageName = "kushal"
@@ -27,3 +26,4 @@ stages("Build image")
       }
     }
   }
+}
